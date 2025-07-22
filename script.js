@@ -8,16 +8,16 @@ window.addEventListener('load', () => {
 
 const messages = [
     {
-        text: "plss mau dong",
-        image: "https://i.pinimg.com/736x/1e/7c/6f/1e7c6ff7a0c26f7eaefbce683656193d.jpg"
+        text: "mas bener bener masih marah sama adek?",
+        image: "https://files.catbox.moe/7333hl.gif"
     },
     {
-        text: "pls klik yg kiri",
-        image: "https://i.pinimg.com/736x/90/73/a9/9073a9359bff531cd830ae7384752934.jpg"
+        text: "nihh adek kasih bungaa biar mas ga marah lagi",
+        image: "https://files.catbox.moe/629k68.gif"
     },
     {
-        text: "terakhir, kalo \"no\" yauda deh",
-        image: "https://i.pinimg.com/736x/a6/43/f5/a643f5a40db387585b56bc767b66fddb.jpg"
+        text: "yaudah deh kalo ga mau maafin",
+        image: "https://files.catbox.moe/s6y4cb.gif"
     }
 ];
 
@@ -121,8 +121,8 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 }
 
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = "HORE!! i knew you would say vqsghvwegdsbjs";
-    document.querySelector('img').src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/good-night-kiss-kiss.gif";
+    title.innerHTML = "Hihii maaciii tayangan adek se antariksa nomor 7, maafinn adekk yaa";
+    document.querySelector('img').src = "https://files.catbox.moe/4mhoku.gif";
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
     bgMusic.play();
@@ -134,7 +134,7 @@ noBtn.addEventListener('click', () => {
         title.innerHTML = messages[noCount - 1].text;
         document.querySelector('img').src = messages[noCount - 1].image;
     } else {
-        title.innerHTML = "TAPI BOONG HEHEHE";
+        title.innerHTML = "Tapii ga boleh loo marah lama lamaa";
         if (!noBtn.classList.contains('running')) {
             noBtn.classList.add('running');
         }
